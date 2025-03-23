@@ -1,0 +1,71 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+        <title>ONLINE JOB MELA</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="stylesheet" type="text/css" href="css/black-tie/jquery-ui-1.8.18.custom.css" />
+        <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+        <script type="text/javascript" src="js/jquery-ui-1.8.18.custom.min.js"></script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="header">
+                <div id="logo">
+                    <h1><a href="#">ONLINE JOB MELA</a></h1>
+                </div>
+                <div id="slogan">
+                    <h2></h2>
+                </div>
+            </div>
+            <div id="menu">
+                <ul>
+                    <li class="first current_page_item"><a href="HomeController">Home</a></li>
+                    
+                        <li>       <a href="LoginController">Login</a></li>
+
+                        <li> <a href="AddCompanyController">Register Company</a></li>
+                        <li><a href="AddCandidateController">Register Candidate</a></li>
+                    
+                    
+                    
+                </ul>
+                <br class="clearfix" />
+            </div>
+
+            <div id="page">
+                <div id="content">
+<fieldset>
+    <legend>Login</legend>
+    <br/>
+    <b></b>
+    <form action="LoginController" method="post">
+      
+        <label>Email
+        </label>
+        <br/>
+        <input type="text" name="email">
+        <br/>
+        <label>Password
+        </label>
+        <br/>
+        <input type="password" name="password">
+       <br/>
+<input type="radio" name="type" value="Company" checked>Company
+<input type="radio" name="type" value="Candidate">Candidate
+       <br/>
+        <input type="submit" value="Login">
+    </form>
+</fieldset>
+ </div>
+<br class="clearfix" />
+</div>
+<div id="footer">
+	Copyright (c) 2019 Jobmela.com. All rights reserved. 
+</div>
+</body>
+</html>
